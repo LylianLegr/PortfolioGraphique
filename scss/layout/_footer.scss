@@ -1,0 +1,34 @@
+.navbar_footer{
+    max-width: var(--website_max-width);
+    margin: 0 auto;
+
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    img{
+        width: 60px;
+        height: auto;
+        display: block;
+    }
+
+    a{
+        text-decoration: none;
+        position: relative;
+        padding: 0.5rem 1rem;
+        border-radius: 999px;
+        
+        &:focus-visible{outline: none;}
+    }
+}
+
+
+
+
+
+
+

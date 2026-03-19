@@ -1,0 +1,12 @@
+#banner{
+    max-width: var(--website_max-width);
+    margin-inline: auto;
+    overflow: hidden;
+    aspect-ratio: 1200/480;
+
+    img{
+        width:100%;
+        height: auto;
+        display: block;
+    }
+}

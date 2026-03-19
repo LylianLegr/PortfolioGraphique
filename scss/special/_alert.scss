@@ -1,0 +1,28 @@
+#alert{
+    position:fixed;
+
+    bottom:2rem;
+    left:50%;
+
+    padding:.8rem 1.2rem;
+    border-radius:999px;
+
+    font-size:.9rem;
+    font-weight:600;
+
+    pointer-events:none;
+
+    z-index:9999;
+
+    transform:translateX(-50%) translateY(20px);
+    transition:.35s ease;
+    opacity:0;
+
+    background:var(--color-purple);
+    color:var(--color-yellow);
+
+    &.show{
+        transform:translateX(-50%) translateY(0px);
+        opacity:1;
+    }
+}

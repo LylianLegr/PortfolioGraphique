@@ -1,0 +1,115 @@
+header{
+    background-color: color-mix(in srgb,var(--color-yellow) 80%,transparent);
+    backdrop-filter: blur(4px) saturate(120%);
+    -webkit-backdrop-filter: blur(4px) saturate(120%);
+}
+
+.navbar,
+.navbar_footer{
+    a:not(:has(img)){
+        &:hover,
+        &:focus-visible{
+            background-color: var(--color-purple);
+            color: var(--color-yellow);
+        }
+    }
+}
+
+h1, h2, h3, 
+h4, h5, h6{color: var(--color-purple)}
+
+h3{background-color: var(--color-yellow)}
+
+
+p, a{color: var(--color-purple)}
+
+.title,
+.date{
+    color:var(--color-purple)
+}
+
+.grid1, 
+.grid2{
+    article{
+        background-color: color-mix(in srgb, var(--color-purple) 20%, transparent);
+        border: 2px solid var(--color-yellow);
+    }
+
+    li{
+        &::before{
+            background-color: var(--color-purple);
+        }
+    }
+}
+
+.portfolio_grid{
+    article{
+        a{
+            border:2px solid var(--color-yellow);
+
+            >div{
+                background: linear-gradient(
+                    to top,
+                        var(--color-yellow),
+                        rgba(0, 0, 0, 0.098));
+            }
+
+            &:focus-visible{border-color: var(--color-purple);}
+
+        }
+    }
+}
+
+article.indisponible{
+    &::after{
+        background:var(--color-yellow);
+        color:var(--color-purple);
+    }
+}
+
+form {
+    label{color: var(--color-purple)}
+
+    input,textarea{
+        border: 2px solid var(--color-purple);
+        background-color: transparent;
+        color: var(--color-purple);
+
+        &::placeholder{
+            color: color-mix(in srgb, var(--color-purple) 60%, transparent);
+        }    
+
+        &:focus-visible{
+            box-shadow: 0 0 0 .8px var(--color-purple);
+            outline:2px solid var(--color-purple);
+            
+        }
+    }
+
+    button{
+        &[type="submit"]{
+            background:var(--color-yellow);
+            color:var(--color-purple);
+            
+            &:hover{
+                background:var(--color-purple);
+                color:var(--color-yellow);
+            }
+    }
+
+        &[type="reset"]{
+            background:var(--color-yellow);
+            color:var(--color-purple);
+            border: 2px solid var(--color-purple);
+        
+            &:hover{
+                background:var(--color-purple);
+                color:var(--color-yellow);
+            }
+        }
+    }
+}
+
+footer{
+    background-color: var(--color-yellow);
+}

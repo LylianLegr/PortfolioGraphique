@@ -1,0 +1,153 @@
+@media (prefers-color-scheme: dark){
+
+    :root{
+        --color-yellow: #2b2b5b;
+        --color-gray: #333333;
+        --color-purple: #fae113;
+    }
+
+    body{background:var(--color-gray)}
+}
+
+@media (prefers-reduced-motion: reduce){
+    html{scroll-behavior: auto !important}
+
+    *,
+    *::before,
+    *::after{
+        animation:none !important;
+        transition:none !important;
+    }
+
+    .reveal{
+        opacity:1;
+        transform:none;
+        filter:none;
+    }
+
+    header,
+    header.scrolled{
+        transition:none;
+    }
+}
+
+@media (prefers-contrast: more){
+
+    :root{
+        --color-yellow:#ffd900;
+        --color-purple:#3a3abf;
+    }
+
+    a{
+        text-decoration:underline;
+    }
+
+}
+
+@media (max-width: 1024px){
+    section{
+        max-width: 900px;
+    }
+
+    .navbar{ul{gap: 1rem;}}
+
+    .grid2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 1.25rem;
+        img{
+            width: 72px;
+            height: 72px;
+        }
+        
+        >*:nth-last-child(1):nth-child(odd){
+            margin-left: 180px; margin-right: 180px;
+            grid-column: 1 / -1;
+        }
+
+    }
+
+    form{
+        button[type="submit"],
+        button[type="reset"]{
+            margin-left: 0;
+        }
+    }
+
+    .portfolio_grid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .overlay_content{
+        width:95%;
+        height:95%;
+    }
+        
+}
+
+@media (max-width: 768px){
+    section{
+        padding: 0 1rem;
+        max-width: 650px;
+    }
+
+    .navbar{
+        ul{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+        
+        img {
+            width: 80px;
+            order: -1;
+        }
+    }
+
+    .grid1,
+    .grid2{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .grid2{
+        >*:nth-last-child(1):nth-child(odd) {
+            margin-left: 0px; margin-right: 0px;
+        }
+    }
+
+    .grid2{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    .grid_stack{
+        flex-direction: column;
+    }
+
+    .grid1 > *{
+        grid-column: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    form button[type="submit"],
+    form button[type="reset"] {
+        width: 100%;
+    }
+
+    form button[type="reset"]{margin-top: 1rem;}
+
+    .portfolio_grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .overlay_content{
+        width:97%;
+        height:97%;
+    }
+
+}

@@ -1,0 +1,34 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    &.scrolled{box-shadow:0 8px 32px rgba(0,0,0,0.12);}
+}
+
+.navbar{
+    max-width: var(--website_max-width);
+    margin: 0 auto;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    img{
+        width: 75px;
+        height: auto;
+        display: block;
+    }
+    
+    a{
+        position: relative;
+        padding: 0.5rem 1rem;
+        border-radius: 999px;
+                
+        &:focus-visible{outline: none}
+    }
+}

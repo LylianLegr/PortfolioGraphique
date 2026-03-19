@@ -1,0 +1,20 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h2[id]{
+    scroll-margin-top: 110px;
+}
+
+body{background: var(--color-gray)}
+
+section{
+    max-width: var(--website_max-width);
+    margin:auto;
+    padding:0 1rem;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}

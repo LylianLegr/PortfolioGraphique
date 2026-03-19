@@ -1,0 +1,32 @@
+:root{
+    /* COLORS */
+    --color-gray:#f5f5f2;
+    --color-yellow:#fae113;
+    --color-purple:#454590;
+
+    /* LAYOUT */
+    --website_max-width:1200px;
+
+    --scroll_margin-top:70px; /* TO DOOOO*/
+
+    --margin-top_h: 40px;
+
+    /* TYPO */
+    --font-family:'Inter',sans-serif;
+
+    --font-size_navbar:0.85rem;
+    --font-size_h1:2rem;        
+    --font-size_h2:1.5rem;      
+    --font-size_h3:1.25rem;     
+    --font-size_h4:1.05rem;     
+    --font-size_h5:0.95rem;     
+    --font-size_p:0.875rem;     
+
+    --font-weight_light:300;
+    --font-weight_regular:400;
+    --font-weight_semibold:600;
+    --font-weight_bold:700;
+    --font-weight_black:900;
+
+    --line-height:1.45;
+}
