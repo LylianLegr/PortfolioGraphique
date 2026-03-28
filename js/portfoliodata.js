@@ -9,28 +9,28 @@ const portfolioData = {
 title:"Logos & Identités Visuelles",
 date:"2023–2026",
 desc:"",
-img:"../assets/images/categories_portfolio/logo_identite_visuelle.jpg",
-link:"../html/logos_identite-visuelle/logos_identite-visuelle.html"
+img:"assets/images/categories_portfolio/logo_identite_visuelle.jpg",
+link:"html/logos_identite-visuelle/logos_identite-visuelle.html"
 },
 {
 title:"Design Éditorial",
 date:"202X–202X",
 desc:"",
-img:"../assets/images/categories_portfolio/print_et_edition.jpg",
-link:"../html/design_editorial/design_editorial.html"
+img:"assets/images/categories_portfolio/print_et_edition.jpg",
+link:"html/design_editorial/design_editorial.html"
 },
 {
 title:"Communication & Publicitaire",
 date:"202X–202X",
 desc:"",
-img:"../assets/images/categories_portfolio/communication_publicitaire.jpg",
-link:"../html/communication_pub/communication_pub.html"
+img:"assets/images/categories_portfolio/communication_publicitaire.jpg",
+link:"html/communication_pub/communication_pub.html"
 },
 {
 title:"Packaging & Product Design",
 date:"2025",
 desc:"",
-img:"../assets/images/categories_portfolio/packaging.jpg",
+img:"assets/images/categories_portfolio/packaging.jpg",
 link:"#"
 },
 {
@@ -44,21 +44,21 @@ link:"#"
 title:"Motion Design & Animation",
 date:"2025–2026",
 desc:"",
-img:"../assets/images/categories_portfolio/animation_motiondesign.jpg",
+img:"assets/images/categories_portfolio/animation_motiondesign.jpg",
 link:"#"
 },
 {
 title:"Signalétique & Design d’environnement",
 date:"XXX",
 desc:"",
-img:"../assets/images/categories_portfolio/signaletique_environnement.jpg",
+img:"assets/images/categories_portfolio/signaletique_environnement.jpg",
 link:"#"
 },
 {
 title:"Web & Digital Design",
 date:"2025–2026",
 desc:"",
-img:"../assets/images/categories_portfolio/web_digital_design.jpg",
+img:"assets/images/categories_portfolio/web_digital_design.jpg",
 link:"#"
 }
 ],
@@ -68,28 +68,28 @@ link:"#"
 title:"Retouche d'images & Photomontage",
 date:"202X",
 desc:"",
-img:"../assets/images/categories_portfolio/retouches_compositing.jpg",
+img:"assets/images/categories_portfolio/retouches_compositing.jpg",
 link:"#"
 },
 {
 title:"Illustration",
 date:"202X–202X",
 desc:"",
-img:"../assets/images/categories_portfolio/illustration.jpg",
+img:"assets/images/categories_portfolio/illustration.jpg",
 link:"#"
 },
 {
 title:"Pixel Art",
 date:"202X–202X",
 desc:"",
-img:"../assets/images/categories_portfolio/pixelart.jpg",
+img:"assets/images/categories_portfolio/pixelart.jpg",
 link:"#"
 },
 {
 title:"Création 3D",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/creation3d.jpg",
+img:"assets/images/categories_portfolio/creation3d.jpg",
 link:"#"
 }
 ],
@@ -99,42 +99,42 @@ link:"#"
 title:"Dessin",
 date:"202X",
 desc:"",
-img:"../assets/images/categories_portfolio/dessin.jpg",
+img:"assets/images/categories_portfolio/dessin.jpg",
 link:"#"
 },
 {
 title:"Aquarelle",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/aquarelle.jpg",
+img:"assets/images/categories_portfolio/aquarelle.jpg",
 link:"#"
 },
 {
 title:"Gravure & Techniques d'impression",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/gravures_techniques_impression.jpg",
+img:"assets/images/categories_portfolio/gravures_techniques_impression.jpg",
 link:"#"
 },
 {
 title:"Sérigraphie",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/serigraphie.jpg",
+img:"assets/images/categories_portfolio/serigraphie.jpg",
 link:"#"
 },
 {
 title:"Collage & Assemblage",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/collage_assemblage.jpg",
+img:"assets/images/categories_portfolio/collage_assemblage.jpg",
 link:"#"
 },
 {
 title:"Édition d'art",
 date:"2026",
 desc:"",
-img:"../assets/images/categories_portfolio/editionart.jpg",
+img:"assets/images/categories_portfolio/editionart.jpg",
 link:"#"
 },
 {
