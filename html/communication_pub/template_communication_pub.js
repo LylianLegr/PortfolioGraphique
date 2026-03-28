@@ -3,121 +3,64 @@ const overlayFrame = document.getElementById("overlay_frame");
 const overlayClose = document.getElementById("overlay_close");
 const portfolioData = {
 
-"Créations de logos":[
+"Affiches":[
 
-//2026
 {
-title:"MLPhotographies",
-date:"2026",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/ml_photographies/ml_photographies.jpg",
-link:"#"
-},
-
-//2025
-{
-title:"Logo Lylian Legrand",
+title:"SNCB 100 ans - Bande Dessinée",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/logo_lylian_v2025/logo_lylian_v2025.png",
+img:"../../assets/images/portfolio/communication_pub/sncb/sncb_bd.jpg",
 link:"#"
 },
 
 {
-title:"Musée du Carnaval et du Masque (aujourd'hui MUMASK)",
+title:"SNCB 100 ans - Explosif",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/logo_musee-carnaval-et-masque/logo_musee-carnaval-et-masque.jpg",
+img:"../../assets/images/portfolio/communication_pub/sncb/sncb_explosed.jpg",
 link:"#"
 },
 
 {
-title:"Connecty",
+title:"Affiche Salon Du Livre de Bruxelles",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/connecty/connecty.jpg",
+img:"../../assets/images/portfolio/communication_pub/salon_du_livre_bx/salon_du_livre_bx.jpg",
 link:"#"
 },
 
 {
-title:"Logo Lylian Legrand",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/sombre_studio/sombre_studio.jpg",
-link:"#"
-},
-
-{
-title:"À Partir d'Elle",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/a-partir-d/a-partir-delle.jpg",
-link:"#"
-},
-
-{
-title:"À Partir de lui",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/a-partir-d/a-partir-de-lui.jpg",
-link:"#"
-},
-
-//2024
-{
-title:"Futuressence",
+title:"Publicité fictive pour Coca Cola",
 date:"2024",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/futureessence/futureessence.jpg",
+img:"../../assets/images/portfolio/communication_pub/coca/coca.jpg",
 link:"#"
 },
 
 {
-title:"Septem",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/septem/septem.jpg",
-link:"#"
-},
-
-{
-title:"Cocotte",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/cocotte/cocotte_logo.svg",
-link:"#"
-},
-
-//2023
-{
-title:"Chocochoc",
+title:"Affiche de film Spider Man No Way Home",
 date:"2023",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/chocochoc/chocochoc.jpg",
+img:"../../assets/images/portfolio/communication_pub/spider-man_no-way-home/spider-man_no-way-home.jpg",
 link:"#"
 },
 
+
+
 ],
 
-"Refonte/Redesign de logos":[
+"Dépliants & Flyers":[
 {
-title:"M&M Dentalem",
+title:"Flyers Promotionel Connecty",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/m&m_dentalem/m&m_dentalem.jpg",
+img:"../../assets/images/portfolio/communication_pub/connecty/connecty.jpg",
 link:"#"
 },
-
-{
-title:"The Legend Of Zelda Echoes of Wisdom",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/zelda_echoes-of-wisdom/zelda_echoes-of-wisdom.jpg",
-link:"#"
-},
-
 
 ],
+
+
 };
 
 /* ===============================
@@ -150,15 +93,15 @@ function createCategory(categoryName, items) {
     container.appendChild(contentContainer);
 
     const grid = document.createElement("div");
-grid.className = "portfolio_grid";
-
-items.forEach((item, index) => {
-    const clone = template.content.cloneNode(true);
-    populateItem(clone, item, index);
-    grid.appendChild(clone);
-});
-
-contentContainer.appendChild(grid);
+    grid.className = "portfolio_grid";
+    
+    items.forEach((item, index) => {
+        const clone = template.content.cloneNode(true);
+        populateItem(clone, item, index);
+        grid.appendChild(clone);
+    });
+    
+    contentContainer.appendChild(grid);
     title.addEventListener("click", () => {
         const isCollapsed = contentContainer.classList.toggle("collapsed");
     title.classList.toggle("collapsed");

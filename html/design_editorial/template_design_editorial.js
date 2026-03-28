@@ -3,121 +3,84 @@ const overlayFrame = document.getElementById("overlay_frame");
 const overlayClose = document.getElementById("overlay_close");
 const portfolioData = {
 
-"Créations de logos":[
-
-//2026
+"Livres & Catalogues":[
 {
-title:"MLPhotographies",
+title:"Le petit journal de Roy Lichtenstein",
+date:"2024",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/roy_lich/roy_lich.jpg",
+link:"#"
+},
+
+
+],
+
+"Couvertures (covers)":[
+{
+title:"Catalogue d'Icône automobiles - Bugatti",
+date:"2025",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/bugatti/bugatti.jpg",
+link:"#"
+},
+
+{
+title:"Catalogue Artistique de Joan Miró",
+date:"2025",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/miro/miro.jpg",
+link:"#"
+},
+
+{
+title:"Brutalism - Architecture Studio",
+date:"2025",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/brutalism/brutalism.jpg",
+link:"#"
+},
+
+{
+title:"Pochette de Vinyl - Rare Americans",
+date:"2024",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/vinyl_rare-americans/vinyl_rare-americans.jpg",
+link:"#"
+},
+
+],
+
+"Zines":[
+{
+title:"Le graphisme",
+date:"2025",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/zine_graphisme/zine_graphisme.jpg",
+link:"#"
+},
+
+{
+title:"La typographie - Dive Into The Typographic Exploration",
+date:"2025",
+desc:"",
+img:"../../assets/images/portfolio/design_editorial/zine_typo/zine_typo.jpg",
+link:"#"
+},
+
+],
+
+"Journaux":[
+{
+title:"Interview avec Natoo",
 date:"2026",
 desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/ml_photographies/ml_photographies.jpg",
-link:"#"
-},
-
-//2025
-{
-title:"Logo Lylian Legrand",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/logo_lylian_v2025/logo_lylian_v2025.png",
-link:"#"
-},
-
-{
-title:"Musée du Carnaval et du Masque (aujourd'hui MUMASK)",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/logo_musee-carnaval-et-masque/logo_musee-carnaval-et-masque.jpg",
-link:"#"
-},
-
-{
-title:"Connecty",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/connecty/connecty.jpg",
-link:"#"
-},
-
-{
-title:"Logo Lylian Legrand",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/sombre_studio/sombre_studio.jpg",
-link:"#"
-},
-
-{
-title:"À Partir d'Elle",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/a-partir-d/a-partir-delle.jpg",
-link:"#"
-},
-
-{
-title:"À Partir de lui",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/a-partir-d/a-partir-de-lui.jpg",
-link:"#"
-},
-
-//2024
-{
-title:"Futuressence",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/futureessence/futureessence.jpg",
-link:"#"
-},
-
-{
-title:"Septem",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/septem/septem.jpg",
-link:"#"
-},
-
-{
-title:"Cocotte",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/cocotte/cocotte_logo.svg",
-link:"#"
-},
-
-//2023
-{
-title:"Chocochoc",
-date:"2023",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/chocochoc/chocochoc.jpg",
-link:"#"
-},
-
-],
-
-"Refonte/Redesign de logos":[
-{
-title:"M&M Dentalem",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/m&m_dentalem/m&m_dentalem.jpg",
-link:"#"
-},
-
-{
-title:"The Legend Of Zelda Echoes of Wisdom",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/logos_identite-visuelle/zelda_echoes-of-wisdom/zelda_echoes-of-wisdom.jpg",
+img:"../../assets/images/portfolio/design_editorial/natoo/natoo.jpg",
 link:"#"
 },
 
 
 ],
+
 };
 
 /* ===============================
@@ -150,15 +113,15 @@ function createCategory(categoryName, items) {
     container.appendChild(contentContainer);
 
     const grid = document.createElement("div");
-grid.className = "portfolio_grid";
-
-items.forEach((item, index) => {
-    const clone = template.content.cloneNode(true);
-    populateItem(clone, item, index);
-    grid.appendChild(clone);
-});
-
-contentContainer.appendChild(grid);
+    grid.className = "portfolio_grid";
+    
+    items.forEach((item, index) => {
+        const clone = template.content.cloneNode(true);
+        populateItem(clone, item, index);
+        grid.appendChild(clone);
+    });
+    
+    contentContainer.appendChild(grid);
     title.addEventListener("click", () => {
         const isCollapsed = contentContainer.classList.toggle("collapsed");
     title.classList.toggle("collapsed");

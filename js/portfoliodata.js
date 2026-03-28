@@ -7,7 +7,7 @@ const portfolioData = {
 "Design Graphique":[
 {
 title:"Logos & Identités Visuelles",
-date:"202X–202X",
+date:"2023–2026",
 desc:"",
 img:"../assets/images/categories_portfolio/logo_identite_visuelle.jpg",
 link:"../html/logos_identite-visuelle/logos_identite-visuelle.html"
@@ -17,14 +17,14 @@ title:"Design Éditorial",
 date:"202X–202X",
 desc:"",
 img:"../assets/images/categories_portfolio/print_et_edition.jpg",
-link:"#"
+link:"../html/design_editorial/design_editorial.html"
 },
 {
 title:"Communication & Publicitaire",
 date:"202X–202X",
 desc:"",
 img:"../assets/images/categories_portfolio/communication_publicitaire.jpg",
-link:"#"
+link:"../html/communication_pub/communication_pub.html"
 },
 {
 title:"Packaging & Product Design",
@@ -226,11 +226,42 @@ img:"https://placehold.co/300x300",
 link:"#"
 },
 
+],
+
+"bleozeifo":[
+{
+title:"Sketches & Croquis",
+date:"202X",
+desc:"",
+img:"https://placehold.co/300x300",
+link:"#"
+},
+
+],
+
+"test":[
+{
+title:"Sketches & Croquis",
+date:"202X",
+desc:"",
+img:"https://placehold.co/300x300",
+link:"#"
+},
+
+],
+
+"blabla":[
+{
+title:"Sketches & Croquis",
+date:"202X",
+desc:"",
+img:"https://placehold.co/300x300",
+link:"#"
+},
+
 ]
 
 };
-
-
 
 /* ===============================
 GENERATION PORTFOLIO
@@ -251,23 +282,41 @@ for(const category in portfolioData){
     createCategory(category, portfolioData[category]);
 }
 
-function createCategory(categoryName, items){
+function createCategory(categoryName, items) {
     const title = document.createElement("h3");
-        title.textContent = categoryName;
-        title.classList.add("reveal");
+    title.textContent = categoryName;
+    title.classList.add("reveal", "collapsible-title");
+    container.appendChild(title);
 
-        container.appendChild(title);
-        const grid = document.createElement("div");
-        grid.className = "portfolio_grid";
+    const contentContainer = document.createElement("div");
+    contentContainer.className = "category-content";
+    container.appendChild(contentContainer);
 
+    const grid = document.createElement("div");
+    grid.className = "portfolio_grid";
 
-    items.forEach((item,index)=>{
+    items.forEach((item, index) => {
         const clone = template.content.cloneNode(true);
         populateItem(clone, item, index);
         grid.appendChild(clone);
     });
 
-    container.appendChild(grid);
+    contentContainer.appendChild(grid);
+    title.addEventListener("click", () => {
+    const isCollapsed = contentContainer.classList.toggle("collapsed");
+    title.classList.toggle("collapsed");
+    const items = contentContainer.querySelectorAll(".reveal");
+    items.forEach(el => {
+        el.classList.remove("visible");
+    });
+    if (!isCollapsed) {
+        items.forEach((el, i) => {
+            setTimeout(() => {
+                el.classList.add("visible");
+            }, i * 80);
+        });
+    }
+});
 }
 
 function populateItem(clone, item, index){
@@ -298,7 +347,6 @@ function populateItem(clone, item, index){
     desc.textContent  = item.desc;
 
 }
-
 
 function initReveal(){
     const observer = new IntersectionObserver((entries)=>{

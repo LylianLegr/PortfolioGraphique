@@ -29,7 +29,8 @@ p, a{color: var(--color-purple)}
 }
 
 .grid1, 
-.grid2{
+.grid2,
+.grid3{
     article{
         background-color: color-mix(in srgb, var(--color-purple) 20%, transparent);
         border: 2px solid var(--color-yellow);

@@ -54,3 +54,52 @@ article.indisponible{
 
     a:hover{cursor:not-allowed}
 }
+
+
+.collapsible-title {
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    padding-left: 1.2rem;
+    margin-left: 10px;
+    transition: 
+            background-color .25s ease,
+            color .25s ease,
+            transform .2s ease;
+
+    &::before{
+        content: "▼";
+        position: absolute;
+        left: 4px;
+        top: 14px;
+        font-size: var(--font-size_p);
+        transition: transform 0.2s ease;
+    }    
+    
+    &:hover{
+            transition-duration: .15s;
+            transform:translateY(-3px)
+            }
+
+    &.collapsed{
+        &::before {
+            transform: rotate(-90deg);
+        }  
+    }
+}
+
+.category-content {
+    overflow: hidden;
+    max-height: 5000px;
+    opacity: 1;
+    transition: 
+        max-height .5s ease,
+        opacity .7s cubic-bezier(.22,1,.36,1)
+        transform .7s cubic-bezier(.22,1,.36,1);
+}
+
+.category-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    display: none;
+}
