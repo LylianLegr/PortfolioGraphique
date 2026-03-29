@@ -212,7 +212,7 @@ link:"#"
 title:"Sténopé",
 date:"202X",
 desc:"",
-img:"../assets/images/categories_portfolio/stenope.jpg",
+img:"assets/images/categories_portfolio/stenope.jpg",
 link:"#"
 }
 ],
