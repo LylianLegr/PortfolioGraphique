@@ -45,7 +45,7 @@ title:"Motion Design & Animation",
 date:"2025–2026",
 desc:"",
 img:"assets/images/categories_portfolio/animation_motiondesign.jpg",
-link:"#"
+link:"html/motion_animation/motion_animation.html"
 },
 {
 title:"Signalétique & Design d’environnement",
@@ -69,7 +69,7 @@ title:"Retouche d'images & Photomontage",
 date:"202X",
 desc:"",
 img:"assets/images/categories_portfolio/retouches_compositing.jpg",
-link:"#"
+link:"html/retouche_photomontage/retouche_photomontage.html"
 },
 {
 title:"Illustration",
@@ -90,7 +90,7 @@ title:"Création 3D",
 date:"2026",
 desc:"",
 img:"assets/images/categories_portfolio/creation3d.jpg",
-link:"#"
+link:"html/creation3d/creation3d.html"
 }
 ],
 
@@ -111,17 +111,17 @@ link:"#"
 },
 {
 title:"Gravure & Techniques d'impression",
-date:"2026",
+date:"2025",
 desc:"",
 img:"assets/images/categories_portfolio/gravures_techniques_impression.jpg",
-link:"#"
+link:"html/gravure_impression/gravure_impression.html"
 },
 {
 title:"Sérigraphie",
-date:"2026",
+date:"2024-2025",
 desc:"",
 img:"assets/images/categories_portfolio/serigraphie.jpg",
-link:"#"
+link:"html/serigraphie/serigraphie.html"
 },
 {
 title:"Collage & Assemblage",
@@ -216,51 +216,6 @@ img:"../assets/images/categories_portfolio/stenope.jpg",
 link:"#"
 }
 ],
-
-"Recherche & Processus":[
-{
-title:"Sketches & Croquis",
-date:"202X",
-desc:"",
-img:"https://placehold.co/300x300",
-link:"#"
-},
-
-],
-
-"bleozeifo":[
-{
-title:"Sketches & Croquis",
-date:"202X",
-desc:"",
-img:"https://placehold.co/300x300",
-link:"#"
-},
-
-],
-
-"test":[
-{
-title:"Sketches & Croquis",
-date:"202X",
-desc:"",
-img:"https://placehold.co/300x300",
-link:"#"
-},
-
-],
-
-"blabla":[
-{
-title:"Sketches & Croquis",
-date:"202X",
-desc:"",
-img:"https://placehold.co/300x300",
-link:"#"
-},
-
-]
-
 };
 
 /* ===============================

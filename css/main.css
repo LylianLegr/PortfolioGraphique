@@ -591,6 +591,7 @@ form button[type=submit], form button[type=reset] {
 .navbar_footer {
   max-width: var(--website_max-width);
   margin: 0 auto;
+  margin-top: 1.5rem;
 }
 .navbar_footer ul {
   list-style: none;

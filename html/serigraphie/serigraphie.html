@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Meta de base -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre, Icône & SEO -->
+    <title>Lylian Legrand – Portfolio Graphique</title>
+
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon/favicon.svg">
+    
+    <meta name="description" content="Portfolio de Legrand Lylian, graphiste et artiste visuel. Illustration, design graphique, motion et projets créatifs.">
+    <meta name="author" content="Lylian Legrand">
+    <meta name="theme-color" content="#454590">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../../index.html#projects">Retour en arrière</a></li>
+                    <li><a href="../../index.html"><img src="../../assets/images/website_icon/website_icon.svg" alt="Logo Lylian Legrand" loading="eager"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="reveal">
+            <h2 id="projects">Sérigraphie</h2>
+            <div class="grid1">
+                <div>
+                    <article>
+                        <p class="center">Impressions Sérigraphie sur différents support : papier, bois, t-shirt, tote-bag</p>
+                    </article>
+                </div>
+            </div>
+            <div id="portfolio"></div>
+        </section>
+        <div id="alert">🚧 Cette page n'est pas encore disponible</div>
+        <footer>
+            <nav class="navbar_footer reveal">
+                <ul>
+                    <li><a href="../../index.html"><img src="../../assets/images/website_icon/website_icon.svg" alt="website_icon"></a></li>
+                </ul>
+            </nav>
+            <p class="center"><small>&copy; <span id="year"></span> — Lylian Legrand. Tous droits réservés.</small></p>
+        </footer>
+        <div id="overlay">
+            <div class="overlay_content">
+                <button id="overlay_close">✕</button>
+                <iframe id="overlay_frame"></iframe>
+            </div>
+        </div>
+        <template id="portfolio_item">
+            <article>
+            <a>
+            <img loading="lazy">
+            <div>
+            <span class="title"></span>
+            <span class="date"></span>
+            <p></p>
+            </div>
+            </a>
+            </article>
+        </template>
+        <script src="../../assets/js/reveal.js" defer></script>
+        <script src="../../assets/js/getyear.js" defer></script>
+        <script src="../../html/serigraphie/template_serigraphie.js" defer></script>
+    </main>
+</body>
+</html>
