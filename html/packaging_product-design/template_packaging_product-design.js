@@ -3,89 +3,16 @@ const overlayFrame = document.getElementById("overlay_frame");
 const overlayClose = document.getElementById("overlay_close");
 const portfolioData = {
 
-"Affiches":[
+"Packaging":[
 
 {
-title:"Affiche Cavalcade de Jemappes 2026",
+title:"Packaging M&M Dentalem",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/cavalcade_jemappes/cavalcade_jemappes.jpg",
+img:"../../assets/images/portfolio/packaging_product-design/m-m_dentalem/m-m_dentalem.jpg",
 link:"#"
 },
 
-
-{
-title:"SNCB 100 ans - Bande Dessinée",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/sncb/sncb_bd.jpg",
-link:"#"
-},
-
-{
-title:"SNCB 100 ans - Explosif",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/sncb/sncb_explosed.jpg",
-link:"#"
-},
-
-{
-title:"Affiche Salon Du Livre de Bruxelles",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/salon_du_livre_bx/salon_du_livre_bx.jpg",
-link:"#"
-},
-
-{
-title:"Publicité fictive pour Coca Cola",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/coca/coca.jpg",
-link:"#"
-},
-
-{
-title:"Affiche de film Spider Man No Way Home",
-date:"2023",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/spider-man_no-way-home/spider-man_no-way-home.jpg",
-link:"#"
-},
-
-
-
-],
-
-"Dépliants & Flyers":[
-
-{
-title:"Dépliant informatif et promotionel pour le Packaging M&M Dentalem",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/m-m_dentalem/m-m_dentalem.jpg",
-link:"#"
-},
-
-{
-title:"Flyers Promotionel Connecty",
-date:"2025",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/connecty/connecty.jpg",
-link:"#"
-},
-
-],
-
-"Plans":[
-{
-title:"Ville de Mons",
-date:"2024",
-desc:"",
-img:"../../assets/images/portfolio/communication_pub/plan_mons/plan_mons.jpg",
-link:"#"
-},
 
 ],
 

@@ -31,7 +31,7 @@ title:"Packaging & Product Design",
 date:"2025",
 desc:"",
 img:"assets/images/categories_portfolio/packaging.jpg",
-link:"#"
+link:"html/packaging_product-design/packaging_product-design.html"
 },
 {
 title:"Typographie & Lettering",
