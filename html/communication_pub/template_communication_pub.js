@@ -9,7 +9,7 @@ const portfolioData = {
 title:"SNCB 100 ans - Bande Dessinée",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/sncb/sncb_bd.jpg",
+img:"assets/images/portfolio/communication_pub/sncb/sncb_bd.jpg",
 link:"#"
 },
 
@@ -17,7 +17,7 @@ link:"#"
 title:"SNCB 100 ans - Explosif",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/sncb/sncb_explosed.jpg",
+img:"assets/images/portfolio/communication_pub/sncb/sncb_explosed.jpg",
 link:"#"
 },
 
@@ -25,7 +25,7 @@ link:"#"
 title:"Affiche Salon Du Livre de Bruxelles",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/salon_du_livre_bx/salon_du_livre_bx.jpg",
+img:"assets/images/portfolio/communication_pub/salon_du_livre_bx/salon_du_livre_bx.jpg",
 link:"#"
 },
 
@@ -33,7 +33,7 @@ link:"#"
 title:"Publicité fictive pour Coca Cola",
 date:"2024",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/coca/coca.jpg",
+img:"assets/images/portfolio/communication_pub/coca/coca.jpg",
 link:"#"
 },
 
@@ -41,7 +41,7 @@ link:"#"
 title:"Affiche de film Spider Man No Way Home",
 date:"2023",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/spider-man_no-way-home/spider-man_no-way-home.jpg",
+img:"assets/images/portfolio/communication_pub/spider-man_no-way-home/spider-man_no-way-home.jpg",
 link:"#"
 },
 
@@ -54,7 +54,7 @@ link:"#"
 title:"Flyers Promotionel Connecty",
 date:"2025",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/connecty/connecty.jpg",
+img:"assets/images/portfolio/communication_pub/connecty/connecty.jpg",
 link:"#"
 },
 
@@ -65,7 +65,7 @@ link:"#"
 title:"Ville de Mons",
 date:"2024",
 desc:"",
-img:"../../assets/images/portfolio/communication_pub/plan_mons/plan_mons.jpg",
+img:"assets/images/portfolio/communication_pub/plan_mons/plan_mons.jpg",
 link:"#"
 },
 
