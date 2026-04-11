@@ -152,6 +152,16 @@ link:"#"
 
 
 "Photographie":[
+
+{
+title:"Sténopé - Par le petit bout de la..",
+date:"202X",
+desc:"",
+img:"assets/images/categories_portfolio/stenope.jpg",
+link:"#"
+},
+
+
 {
 title:"Paysage Naturel",
 date:"202X",
@@ -207,14 +217,6 @@ desc:"",
 img:"https://placehold.co/300x300",
 link:"#"
 },
-
-{
-title:"Sténopé",
-date:"202X",
-desc:"",
-img:"assets/images/categories_portfolio/stenope.jpg",
-link:"#"
-}
 ],
 };
 

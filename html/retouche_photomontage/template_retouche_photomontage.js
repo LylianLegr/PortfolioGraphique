@@ -3,7 +3,7 @@ const overlayFrame = document.getElementById("overlay_frame");
 const overlayClose = document.getElementById("overlay_close");
 const portfolioData = {
 
-"Photomontage":[
+"Composite":[
 
 {
 title:"En sortant du dentrifrice",
@@ -22,7 +22,7 @@ link:"#"
 },
 
 {
-title:"Grimace",
+title:"Autoportrait en Grimace",
 date:"2025",
 desc:"",
 img:"../../assets/images/portfolio/retouche_photomontage/grimace/grimace.jpg",
@@ -30,12 +30,16 @@ link:"#"
 },
 
 {
-title:"Grimace",
+title:"Visage qui n'existe pas",
 date:"2025",
 desc:"",
 img:"../../assets/images/portfolio/retouche_photomontage/fusion_visages/fusion_visages.jpg",
 link:"#"
 },
+
+],
+
+"Matte Painting":[
 
 {
 title:"Distributeur Texturé",
@@ -44,6 +48,10 @@ desc:"",
 img:"../../assets/images/portfolio/retouche_photomontage/distributeur_texture/distributeur_texture.jpg",
 link:"#"
 },
+
+],
+
+"Portraits":[
 
 {
 title:"Tête de Joker",
@@ -68,7 +76,9 @@ desc:"",
 img:"../../assets/images/portfolio/retouche_photomontage/chien_lion/chien_lion.jpg",
 link:"#"
 },
+],
 
+"Incrustations":[
 {
 title:"Typographie Afrique",
 date:"2023",
@@ -86,6 +96,7 @@ link:"#"
 },
 
 ],
+
 
 };
 

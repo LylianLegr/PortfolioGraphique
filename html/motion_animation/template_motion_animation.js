@@ -4,13 +4,32 @@ const overlayClose = document.getElementById("overlay_close");
 const portfolioData = {
 
 "Bannière Animée":[
-
 {
 title:"Bannière animée pour le site web (ancien)",
 date:"2025",
 desc:"",
 img:"https://i.ytimg.com/vi/Ni6IOXgecms/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCOjno4cipXsB2fNIL0eBTEM5QbGw",
 link:"https://www.youtube.com/embed/Ni6IOXgecms?si=RC5MBGfuBUJSalhw"
+},
+
+
+],
+
+"Tutoriels 2026":[
+{
+title:"Intro to Motion Graphics",
+date:"2026",
+desc:"",
+img:"https://i9.ytimg.com/vi_webp/lj00UIg30pU/mqdefault.webp?sqp=CKjb6c4G&rs=AOn4CLAKSGuDSNBoAuzzh1jGwDkfXXCaow",
+link:"https://www.youtube.com/embed/lj00UIg30pU?si=FSmLVoXFA8ayQ2d7"
+},
+
+{
+title:"Welcome to After Effects",
+date:"2026",
+desc:"",
+img:"https://i9.ytimg.com/vi/liA_IkaLlMQ/mqdefault.jpg?sqp=CNTd6c4G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGIgYihiMA8=&rs=AOn4CLDDNrJfrx0z72227MVMCYmqWmS76A",
+link:"https://www.youtube.com/embed/liA_IkaLlMQ?si=IUPxQl9kQzF4zqLl"
 },
 
 
